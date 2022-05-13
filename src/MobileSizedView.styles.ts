@@ -1,3 +1,4 @@
+import React from 'react';
 import styled, { css } from 'styled-components';
 
 import {
@@ -12,7 +13,7 @@ export const Layout = styled.main<ILayout>`
   justify-content: center;
 `;
 
-export const ScreenWrapper = styled.div`
+export const ScreenWrapper = styled.div<React.CSSProperties>`
   width: 90%;
   display: flex;
   align-items: flex-end;
