@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "./node_modules/.bin/tsc",
     "install-peers": "install-peers -f"
   },
   "files": [
